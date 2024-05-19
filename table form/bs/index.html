@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@33.003/misc/Farsi-Digits/Vazirmatn-FD-font-face.css">
+</head>
+<style>
+    * {
+        direction: rtl;
+        font-family: vazirmatn FD, sans-serif;
+    }
+    .page-link{
+        color: black;
+        transition: all 1s;
+    }
+    .page-link:hover{
+        background-color: rgb(186, 186, 218);
+    }
+</style>
+
+<body>
+    <h1 class="border p-5">مشخصات</h1>
+    <div class="container-fluid ">
+        <table class="table table-striped p-5  ">
+            <thead>
+                <tr>
+                    <th>نام</th>
+                    <th>شماره تماس</th>
+                    <th>کد ملی</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>علی</td>
+                    <td>092123456</td>
+                    <td>032036505</td>
+                </tr>
+                <tr>
+                    <td>محمد</td>
+                    <td>0912456857</td>
+                    <td>0320365879</td>
+                </tr>
+                <tr>
+                    <td>رضا</td>
+                    <td>0912457846</td>
+                    <td>0320365457</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="btn btn-dark btn-outline-primary  mx-3 m-3  ">ثبت</button>
+        <ul class="pagination d-flex justify-content-center">
+            <li class="page-item "><a class="page-link " href="">قبلی</a></li>
+            <li class="page-item "><a class="page-link " href="">1</a></li>
+            <li class="page-item "><a class="page-link " href="">2</a></li>
+            <li class="page-item "><a class="page-link " href="">3</a></li>
+            <li class="page-item "><a class="page-link " href="">بعدی</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
